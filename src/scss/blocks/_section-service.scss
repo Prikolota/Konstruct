@@ -1,0 +1,26 @@
+.section-service {
+  padding-bottom: 115px;
+}
+
+.section-service__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 76px;
+}
+
+.section-service__title {
+  margin-right: 154px;
+}
+
+.section-service__text {
+  width: 405px;
+  line-height: 19px;
+  font-size: 11px;
+  letter-spacing: 0.2px;
+  margin-right: 31px;
+}
+
+.section-service__card-row {
+  display: flex;
+  justify-content: space-between;
+}

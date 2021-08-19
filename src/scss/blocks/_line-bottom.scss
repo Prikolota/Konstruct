@@ -1,0 +1,20 @@
+.line-bottom {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+
+  &::after {
+    content: "";
+    position: absolute;;
+    height: 2px;
+    width: 50px;
+    background-color: $accentColor;
+    bottom: -10px;
+    left: 30%;
+  }
+}
+
+.line-bottom.line-bottom--left::after {
+  left: 0;
+  bottom: 7px;
+}

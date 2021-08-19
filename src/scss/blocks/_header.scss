@@ -1,0 +1,40 @@
+.header {
+  background: url("./../img/header/bg.png") no-repeat center center;
+  background-size: 100% 768px;
+}
+
+.header__wrapper {
+  padding-top: 41px;
+  padding-bottom: 71px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header__logo {
+  margin-bottom: 319px;
+}
+
+.header__content {
+  color: $white;
+  margin-bottom: 221px;
+  text-align: center;
+}
+
+.header__subtitle p {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.header__scroll {
+  & a {
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 3.7px;
+    color: $white;
+    text-decoration: none;
+  }
+}

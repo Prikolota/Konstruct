@@ -1,0 +1,39 @@
+.header__nav {
+  padding: 24px 0;
+  border-bottom: 1px solid #E6E6E6;;
+}
+
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list-item + .nav__list-item {
+  margin-left: 39px;
+}
+
+.nav__item-link {
+  text-decoration: none;
+  color: $textColor;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 16px;
+  letter-spacing: 1.1px;
+  transition: .2s ease-in;
+
+  &--active {
+    color: $accentColor;
+  }
+
+  &:hover {
+    color: $accentColor;
+  }
+}

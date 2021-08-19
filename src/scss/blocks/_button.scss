@@ -1,0 +1,19 @@
+.button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: $accentColor;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: $white;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+
+  &:hover {
+    background-color: darken($color: $accentColor, $amount: 15%);
+  }
+}
